@@ -6,7 +6,7 @@ userData.prompt = prompt(
   'Hey there FROYO lover!  Please enter your desired flavors separated by commas.',
   'vanilla,vanilla,vanilla,strawberry,coffee,coffee'
 )
-console.log(userData.prompt)
+console.log(userData.prompt) 
 
 // Display the stored object in console as an array
 const flavorArray = userData.prompt.split(',')
